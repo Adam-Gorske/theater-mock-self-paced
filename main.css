@@ -1,0 +1,163 @@
+* {
+    /* border: 1px solid red; */
+}
+
+h1 {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #EBB625;
+    border: solid 0.2px grey;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font: roboto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d29f13;
+}
+
+td {
+    font-size: 6pt;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+th {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+table {
+    border-spacing: 50px;
+}
+
+/* FLEXBOX CONTAINER */
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+
+/* FLEXBOX ITEM #1 */
+.nav-left {
+    color: white;
+    font: roboto;
+    font-size: 1.5rem;
+}
+
+/* FLEXBOX ITEM #2 */
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* FLEX BOX ITEM #3 */
+.nav-links {
+    display: flex;
+    list-style-type:none;
+    gap: 4rem;
+    padding-left:0;
+    font-size: 1rem;
+    
+}
+
+
+/* NAVIGATION LINK ANCHOR TAGS*/
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+/* HERO IMAGE CONTAINER */
+.hero-image-container {
+    position: relative;
+    text-align: center;
+}
+
+.pic-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font: roboto;
+    font-size: 55pt;
+    max-width: 100%;
+}
+
+.month-banner {
+    text-align: left;
+    border: solid 1px;
+    background-color: #f7f7f7;
+    font-size: 8pt;
+    padding-left: 50px;
+    margin: 0 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.raisin-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 0 12%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    font-family: roboto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.info-column h1 {
+    margin-bottom: .5rem;
+}
+
+.info-text i {
+    color:#EBB625;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:#EBB625;
+}
+
+.info-heading {
+    font-weight: 500;
+}
